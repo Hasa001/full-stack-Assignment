@@ -1,0 +1,48 @@
+.help-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    padding: 15vh 12vw;
+  }
+  
+  .card {
+    background-color: #d9e0ec84;
+    border: 1px solid #afc7ff;
+    border-radius: 8px;
+    width: 30vw;
+    height: 27vh;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow:hidden;
+    
+  }
+  
+  .card h3 {
+    font-size: 1.3vw;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 0;
+    color: #000;
+  }
+  .underline{
+    border-top: 1px solid #afc7ff;
+  }
+  .card p {
+    font-size: 1.3vw;
+    margin:0;
+    padding: 15px;
+    padding-top: 0;
+    color: #555;
+  }
+
+  .card hr{
+    width:100%;
+    background-color:#bed2ff;
+  }
+  
+  .error{
+    margin:10vh;
+    font-size: large;
+    color: red;
+  }

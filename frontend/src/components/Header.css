@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000000;
+    color: white;
+    padding: 1vh 10vw;
+    justify-items: center;
+  }
+  .header-left{
+    display: inline-flex;
+    align-items: center;
+
+  }
+  .logo{
+    width: 2rem;
+    height:2rem;
+    margin: 1rem;
+  }
+  
+  .request-button {
+    background-color: #262525;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+  }
+  
+  .request-button:hover {
+    background-color: #555;
+    border: 1px solid #ffffff;
+
+  }
+
+  
